@@ -4,7 +4,7 @@ Aktuellere Version möglicherweise auf "dem" Etherpad.
 
 ## 1. Spielfeld
 
-Das Spielfeld ist in der Form einer liegenden Acht angeordnet, dies symbolisiert das endlose Spiel.
+Das Spielfeld ist in der Form einer liegenden Acht angeordnet, diese symbolisiert das endlose Spiel.
 
 Auf der Linie der liegenden Acht befinden sich insgesamt 32 markierte Felder.
 
@@ -72,7 +72,7 @@ Folgende Aktionen sind bereits fest auf dem Spielfeld verankert:
 - Zwei Schluck trinken.
 - Eine Runde aussetzen.
 - Zwei Runden aussetzen.
-- (Felix-Regel) Erzähle eine Witz. Wenn keiner lacht, trink!
+- (XXlix-Regel) Erzähle eine Witz. Wenn keiner lacht, trink!
 - (XXXXing-Regel) Der Älteste trinkt.
 - Der Jüngste trinkt.
 - (Mehrheitsentschluss) Die Gruppe entscheidet per Mehrheitsvotum, wer trinkt.
@@ -109,6 +109,7 @@ Dann sollte ein Pull-Request gestellt werden.
 
 Die Karten müssen im Vornherein beim Spielmaster eingereicht werden. Dieser druckt die Karten aus und stellt so sicher, dass die Attributierung der Karten nicht möglich ist.
 Der Spielmaster versucht nach besten Kräften sich keine der Karten (außer seine Eigenen) vor dem Spiel anzuschauen, und die Anonymität der Karten zu wahren.
+Die Teilnehmer sollten evtl. verwendete Requisiten nicht vergessen. Der Gastgeber sollte auch die Requisiten aus den Beispielkarten vorliegen haben. (z.Zt. Maggi, Liste mit Bundesländern/Hauptstädten)
 
 Vor dem Spiel müssen folgende Parameter im Zensus festgelegt werden:
 - Höhe der "großen Strafe" und der "kleinen Strafe"
