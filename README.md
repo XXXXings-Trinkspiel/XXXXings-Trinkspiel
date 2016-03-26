@@ -14,7 +14,13 @@ Die Karten, die auf diesen Feldern gezogen werden müssen, werden von den Teilne
 
 Die Beispiele, die in den Feldarten im Folgenden angegeben werden, sind als Grundbestand Teil des Spiels.
 
+Hier ein erster Entwurf:
+![Spielfeld](./spielfeld.svg)
+
+
 ## 2. Regeln
+
+- Alle Spieler beginnen mit einer Spielfigur ihrer Wahl in der Mitte der liegenden Acht. Es wird in der Reihenfolge der Sitzordung gewürfelt und danach die entsprechende Anzahl Felder vorgezogen. Die Gruppe bestimmt wer anfängt.
 
 - Auf Aktions-, Alkohol- oder Regel-Feldern muss eine Karte vom entsprechenden Stapel gezogen werden. Auf den fest vorgegebenen Feldern muss die entsprechende Aktion ausgeführt werden.
 
@@ -24,7 +30,7 @@ Die Beispiele, die in den Feldarten im Folgenden angegeben werden, sind als Grun
 
 - Bei allen Karten gilt: Betroffene der Karte dürfen nicht zu spezifisch ausgewählt werden (z.B. Vornamen)
 
-- Es gilt: Pro Rundlauf kann ein Zug ausgesetzt werden. Die Anzahl der Züge, die ausgesetzt werden kann, addiert sich nicht auf. (Man hat also immer nur maximal einen Zug, den man aussetzen kann.)
+- Es gilt: Pro Rundlauf (also nach jeder zweiten Überquerung der kreuzenden Linien der liegenden Acht) kann ein Zug ausgesetzt werden. Die Anzahl der Züge, die ausgesetzt werden kann, addiert sich nicht auf. (Man hat also immer nur maximal einen Zug, den man aussetzen kann.) Wenn jemand aussetzt, dann muss er nicht selbst ziehen, und wird einfach übersprungen. Derjenige muss sich jedoch trotzdem an den Gruppen-, Regel-, Aktionskarten der Anderen beteiligen.
 
 ## 3. Kartenarten
 
@@ -101,7 +107,7 @@ Die Karten werden mittels PGP-Public-Key verschlüsselt. Der Spiele-Master besit
 
 Jede Karte soll **einzeln** als **reine Textdatei** erstellt und verschlüsselt werden, sodass die Weiterverarbeitung möglichst einfach automatisiert werden kann. Der jeweilige Dateiname ist egal; er sollte jedoch im Repo möglicht einmalig sein (modulo Groß/Kleinschreibung wegen Windows). 
 
-Die Dateien sollen mit dem Public-Keys verschlüsselt und danach in den entsprechenden Ordnern abgelegt werden. 
+Die Dateien sollen mit dem Public-Key verschlüsselt und danach in den entsprechenden Ordnern abgelegt werden. 
 
 Dann sollte ein Pull-Request gestellt werden.
 
