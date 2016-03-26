@@ -15,7 +15,8 @@ Die Karten, die auf diesen Feldern gezogen werden müssen, werden von den Teilne
 Die Beispiele, die in den Feldarten im Folgenden angegeben werden, sind als Grundbestand Teil des Spiels.
 
 Hier ein erster Entwurf:
-![Spielfeld](./spielfeld.svg)
+
+![Spielfeld](./spielfeld.png)
 
 
 ## 2. Regeln
