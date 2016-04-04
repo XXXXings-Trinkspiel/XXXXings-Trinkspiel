@@ -10,11 +10,11 @@ Auf der Linie der liegenden Acht befinden sich insgesamt 32 markierte Felder.
 
 Diese Felder können Leer, Aktionsfelder, Alkoholfelder, Regelfelder oder fest vorgegebene Felder sein.
 
-Die Karten, die auf diesen Feldern gezogen werden müssen, werden von den Teilnehmern selbst eingereicht. Dies geschieht anonym.
+Die Karten, die auf diesen Feldern gezogen werden müssen, werden von den Teilnehmern selbst im Vorfeld eingereicht. Dies geschieht "anonym".
 
 Die Beispiele, die in den Feldarten im Folgenden angegeben werden, sind als Grundbestand Teil des Spiels.
 
-Hier ein erster Entwurf:
+Hier ein erster Entwurf des Spielfelds:
 
 ![Spielfeld](./spielfeld.png)
 
@@ -31,7 +31,7 @@ Hier ein erster Entwurf:
 
 - Bei allen Karten gilt: Betroffene der Karte dürfen nicht zu spezifisch ausgewählt werden (z.B. Vornamen)
 
-- Es gilt: Pro Rundlauf (also nach jeder zweiten Überquerung der kreuzenden Linien der liegenden Acht) kann ein Zug ausgesetzt werden. Die Anzahl der Züge, die ausgesetzt werden kann, addiert sich nicht auf. (Man hat also immer nur maximal einen Zug, den man aussetzen kann.) Wenn jemand aussetzt, dann muss er nicht selbst ziehen, und wird einfach übersprungen. Derjenige muss sich jedoch trotzdem an den Gruppen-, Regel-, Aktionskarten der Anderen beteiligen.
+- Es gilt: Pro Rundlauf (also nach jeder zweiten Überquerung der kreuzenden Linien der liegenden Acht) kann ein Zug ausgesetzt werden. Die Anzahl der Züge, die ausgesetzt werden kann, addiert sich nicht auf. (Man hat also immer nur maximal einen Zug, den man aussetzen kann.) Wenn jemand aussetzt, dann muss er nicht selbst ziehen, und wird einfach übersprungen. Derjenige muss sich jedoch trotzdem an den Alkohol-, Regel- und Aktionskarten der Anderen beteiligen.
 
 ## 3. Kartenarten
 
@@ -76,7 +76,7 @@ Die Karte beschreibt wie die zu trinkende Menge "berechnet" wird.
 Folgende Aktionen sind bereits fest auf dem Spielfeld verankert:
 
 - Einen Schluck trinken.
-- Zwei Schluck trinken.
+- Richtungswechsel!
 - Eine Runde aussetzen.
 - Zwei Runden aussetzen.
 - (XXlix-Regel) Erzähle eine Witz. Wenn keiner lacht, trink!
@@ -92,14 +92,14 @@ Davon
 - 8 fest vorgegebene,
 - 4 Aktions-,
 - 4 Alkohol-, und
-- 2 Regelfelder
+- 2 Regelfelder.
         
 ## 6. Beteiligung
 
 Die Mitspieler müssen jeweils eigene Aktions-, Alkohol- und Regelkarten mitbringen.
 Zur Teilnahme am Spiel muss man mindestens 
 - 6 Aktions-,
-- 6 Alkohol-,
+- 6 Alkohol-, und
 - 3 Regelkarten
 
 mitbringen.
@@ -118,6 +118,6 @@ Die Karten müssen im Vornherein beim Spielmaster eingereicht werden. Dieser dru
 Der Spielmaster versucht nach besten Kräften sich keine der Karten (außer seine Eigenen) vor dem Spiel anzuschauen, und die Anonymität der Karten zu wahren.
 Die Teilnehmer sollten evtl. verwendete Requisiten nicht vergessen. Der Gastgeber sollte auch die Requisiten aus den Beispielkarten vorliegen haben. (z.Zt. Maggi, Liste mit Bundesländern/Hauptstädten)
 
-Vor dem Spiel müssen folgende Parameter im Zensus festgelegt werden:
+Vor dem Spiel müssen folgende Parameter im Konsens festgelegt werden:
 - Höhe der "großen Strafe" und der "kleinen Strafe"
-- Dauer der Regelfelder
+- Dauer der Regeln die durch Regelfelder aufgestellt werden
