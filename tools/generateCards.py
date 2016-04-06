@@ -43,6 +43,7 @@ for file in os.listdir(args.inputfolder):
 			cards.append(decryptedString.data.decode(encodings.pop()).rstrip())
 			encodingWrong = False
 		except:
+			print('nope..')
 			pass			
 
 # Generate LaTeX File
@@ -50,6 +51,7 @@ latexHeader = r'''\NeedsTeXFormat{LaTeX2e}[1996/12/01]
 \documentclass[myown,fronts]{flashcards}
 \usepackage{ngerman}
 \usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
 \cardfrontstyle[\slshape]{headings}
 \cardbackstyle{empty}
 \setlength{\cardmargin}{1.2cm}
@@ -79,7 +81,9 @@ def tex_escape(text):
 		'Ä': r'"A',
 		'Ü': r'"U',
 		'Ö': r'"O',
-		'"': r'``',
+		'"': r"\textquotedbl ",
+		'„': r"\textquotedbl ",
+		'“': r"\textquotedbl ",
 	}
 	
 	rx = re.compile('|'.join(map(re.escape, conv)))
@@ -91,17 +95,18 @@ def tex_escape(text):
 # Generate and write LaTeX-File
 print("Generating and Writing LaTeX-File...")
 
-outputfile = open(args.output, mode = 'w', encoding = 'latin1')
+outputfile = open(args.output, mode = 'w', encoding = 'utf-8')
 outputfile.write(latexHeader)
 outputfile.write('\cardfrontfoot{'+args.name+"}\n\n")
 
 for card in cards:
+	#card = codecs.encode(card, 'rot_13') # for testing purposes (looking for encoding errors or non-compiling LaTeX)
 	if (len(card) <= 250):
-		outputfile.write(r"\begin{flashcard}[]{"+tex_escape(card.encode('latin1').decode('latin1'))+r"}\end{flashcard}"+"\n")
+		outputfile.write(r"\begin{flashcard}[]{"+tex_escape(card)+r"}\end{flashcard}"+"\n")
 	elif (len(card) <= 350):
-		outputfile.write(r"\begin{flashcard}[]{\small{"+tex_escape(card.encode('latin1').decode('latin1'))+r"}}\end{flashcard}"+"\n")
+		outputfile.write(r"\begin{flashcard}[]{\small{"+tex_escape(card)+r"}}\end{flashcard}"+"\n")
 	elif (len(card) <= 1400):
-		outputfile.write(r"\begin{flashcard}[]{\tiny{"+tex_escape(card.encode('latin1').decode('latin1'))+r"}}\end{flashcard}"+"\n")
+		outputfile.write(r"\begin{flashcard}[]{\tiny{"+tex_escape(card)+r"}}\end{flashcard}"+"\n")
 	else:
 		print("Content of card is too long! Skipped. Must manually add card. ROT13: "+codecs.encode(card, 'rot_13'))
 outputfile.write(latexFooter)
